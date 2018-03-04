@@ -1,0 +1,22 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>监控平台</title><script>window.onerror = function(msg, url, line, col, error) {
+  // 直接将错误打印到控制台
+  console.log('arguments')
+debugger;
+  // 方便在未打开控制台的时候，记录错误对象
+  // window.demoError = arguments
+
+}</script><script src=./static/js/fundebug.0.3.4.min.js></script><script>fundebug.apikey = 'a499e9eeee7027fc2284ac56346d6ba79e79e8c02c059f262aa2d712b7bd64cb'
+        // fundebug.filters =[{title:/监控平台/}];
+            // fundebug.apikey ='b499e9eeee7027fc2284ac56346d6ba79e79e8c02c059f262aa2d712b7bd64cb';</script><script>var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4) {
+                if (xmlhttp.status == 200) {
+                    console.log('status ---2000')
+                } else {
+                    console.log('status ---', xmlhttp.status)
+                }
+
+            }
+        }
+        xmlhttp.open("GET", "http://127.0.0.1:3000/", true);
+        xmlhttp.send();</script><link href=/static/css/app.b3e7474692ae8a1ef3d489c17bd4f2ba.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=/static/js/manifest.55a9acd0a34c52c56d42.js></script><script type=text/javascript src=/static/js/vendor.644f4e19ed64677d08c9.js></script><script type=text/javascript src=/static/js/app.ae0283f498c84022628b.js></script></body><script>var b = p * 3;</script></html>
